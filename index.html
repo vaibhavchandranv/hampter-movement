@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>the hampter movement</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:inter, system-ui, sans-serif;
+    background:linear-gradient(
+        to bottom,
+        #f8f1e7,
+        #f3e5d0
+    );
+    color:#4b3621;
+    line-height:1.7;
+    text-transform:lowercase;
+}
+
+.container{
+    width:min(900px, 90%);
+    margin:auto;
+}
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:2rem;
+}
+
+.hamster{
+    font-size:5rem;
+    filter:drop-shadow(0 0 15px rgba(156,107,61,.35));
+}
+
+.hero h1{
+    font-size:clamp(3rem,8vw,6rem);
+    color:#7a512d;
+    margin-bottom:0.1rem;
+    line-height:0.9;
+}
+
+.hero p{
+    color:#6b5a47;
+    max-width:700px;
+    margin:1rem auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:1rem;
+    padding:.9rem 1.6rem;
+    border-radius:999px;
+    background:#9c6b3d;
+    color:white;
+    text-decoration:none;
+    transition:.2s;
+    font-weight:600;
+}
+
+.btn:hover{
+    background:#7a512d;
+    transform:translateY(-2px);
+}
+
+section{
+    padding:2.5rem 0;
+}
+
+h2{
+    margin-bottom:1rem;
+    font-size:2rem;
+    color:#8b5a2b;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:1rem;
+    margin-top:1.5rem;
+}
+
+.card{
+    background:#fff7ee;
+    padding:1.5rem;
+    border-radius:18px;
+    border:2px solid #d9b38c;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+    transition:.2s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+}
+
+.card h3{
+    margin-bottom:.5rem;
+}
+
+.impact{
+    background:#fffaf4;
+    border:2px solid #e2c4a6;
+    border-radius:18px;
+    padding:1.5rem;
+}
+
+.impact li{
+    margin-left:1.2rem;
+    margin-bottom:.5rem;
+}
+
+.note{
+    background:linear-gradient(
+        135deg,
+        #f7d9b1,
+        #ffeacb
+    );
+    padding:1.8rem;
+    border-radius:18px;
+}
+
+strong{
+    color:#6d4620;
+}
+
+footer{
+    text-align:center;
+    padding:3rem 1rem;
+    color:#6b5a47;
+}
+
+.counter{
+    font-size:3rem;
+    font-weight:700;
+    color:#8b5a2b;
+    margin-top:2rem;
+}
+
+.small{
+    color:#7d6a55;
+    font-size:.95rem;
+}
+
+a{
+    color:inherit;
+}
+
+ul{
+    margin-top:.5rem;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="container">
+
+        <div class="hamster">🐹</div>
+
+        <h1>the hampter movement</h1>
+
+        <p>
+            thousands of hampters. one mission.
+        </p>
+
+        <p>
+            raising awareness about educational inequality in south asia
+            and encouraging students to help make education more accessible.
+        </p>
+
+        <a href="#join" class="btn">join the movement</a>
+
+        <div class="counter" id="counter">7</div>
+        <p class="small">hampters joined</p>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+
+        <h2>what is the hampter movement?</h2>
+
+        <p>
+            the hampter movement is a community-driven initiative focused on
+            raising awareness about educational inequality across south asia.
+            whether through tutoring, mentoring, volunteering, resource creation,
+            outreach, or simply spreading awareness, every contribution helps.
+        </p>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+
+        <h2>share your hampter contributions</h2>
+
+        <p>
+            volunteered? taught a class? created notes? donated books?
+            mentored students? share a screenshot, photo, or description
+            of your contribution and inspire another hampter to help.
+        </p>
+
+        <br>
+
+        <a href="https://discord.gg/Sm5ZF4GYGF" class="btn">
+            submit a contribution
+        </a>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+
+        <h2>impact wall</h2>
+
+        <div class="impact">
+            <ul>
+                <li>@vays_mvr3 made free french notes</li>
+                <li>@soggy1504 donated textbooks to a local school</li>
+                <li>@haris_rehman created free mathematics resources</li>
+                <li>you could be next!! 🐹</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+
+        <h2>no pressure.</h2>
+
+        <p>
+            you are not required to volunteer, donate, teach, or participate
+            in any activity.
+        </p>
+
+        <br>
+
+        <p>
+            simply supporting the movement and helping spread awareness
+            already makes a difference.
+        </p>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+
+        <div class="note">
+
+            <h2>note from the creator</h2>
+
+            <p>
+                i started the hampter movement with one simple idea:
+                thousands of small actions can create meaningful change.
+            </p>
+
+            <br>
+
+            <p>
+                whether you contribute directly or simply show your support,
+                thank you for being part of it.
+            </p>
+
+            <br>
+
+            <strong>
+                thousands of hampters. one mission.
+            </strong>
+
+            <p>
+                <em>- vaibhav (@aeroformula)</em>
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="join">
+    <div class="container">
+
+        <h2>how to join</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🐹 hampter pfp</h3>
+                <p>set a hampter as your profile picture.</p>
+            </div>
+
+            <div class="card">
+                <h3>#hamptermovement</h3>
+                <p>add it to your bio or status.</p>
+            </div>
+
+            <div class="card">
+                <h3>📢 spread awareness</h3>
+                <p>share the movement with friends.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <h3>#hamptermovement</h3>
+    <p>thousands of hampters. one mission.</p>
+</footer>
+
+</body>
+</html> 
